@@ -75,19 +75,19 @@ main {
 
 footer {
 	height: 100px;
-	background-color: #f6cf05;
+	background-color: #F5D908;
 }
 
 .page-heading h1 {
 	display: inline;
-    background-color: #0b19cf;
+    background-color: #008bcc;
 	padding: 0 20px 10px 20px;
   margin-top: 10px;
 	}
 
 .page-heading .subheading {
 	display: inline-block !important;;
-    background-color: #c9300e;
+    background-color: #D80351;
 	padding: 10px 20px;
 }
 
@@ -105,12 +105,12 @@ footer {
 }
 
 .intro-header .page-heading {
-  color: #f6cf05;
+  color: #F5D908;
   margin-top: 15%;
 }
 @media only screen and (min-width: 768px) {
 main {
-	margin: 120px 0;
+	/*margin: 120px 0;*/
 	padding: 20px;
 }
   .intro-header .page-heading {
@@ -142,4 +142,34 @@ main {
 
 .hidden {
   visibility: none;
+}
+
+#wheelDiv {
+  height: 100%;
+}
+
+#result{
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-sm-6 {
+  padding-left: 15%;
+  margin-bottom: 75px;
+}
+
+#inputs {
+  padding-left: 10% !important;
+  float: left;
+}
+
+#buttons {
+  margin-top: 30%;
+  margin-bottom: 10%;
+}
+
+.btn {
+  font-size: 30px;
 }
