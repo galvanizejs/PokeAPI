@@ -58,6 +58,8 @@ For example:
 ### Acceptance Criteria
 > The term `acceptance criteria` is typically used with projects and tasks that are sent through quality testing. It defines the criteria used for determining when the project is considered `done and ready for deployment`
 
+![Sample](img/pokeapigiffed.gif)
+
 1. The `random` button should return a Pokémon's **name, height, weight, and image**.
 2. The `color` button should return just the names of first 10 Pokémon for each color group. Pokémon color groups can be found on the interwebz.
 3. The `name` button should return a Pokémon's **name, height, weight, and image**.
@@ -66,3 +68,5 @@ For example:
 
 ##### Advanced Double API Call
 5. When returning the first 10 names in a color group, make each name clickable so the user may click on a name to then find the Pokémon's **name, height, weight, and image**. (HINT: This will require a second API call, but the url will be handed to you in the result from the color search).
+
+![HighFive!](img/giphypoke.gif)
