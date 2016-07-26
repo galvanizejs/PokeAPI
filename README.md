@@ -17,7 +17,7 @@ You will also:
 1. Download WheelNavJs from here: http://wheelnavjs.softwaretailoring.net/download.html
 (Click the `Download` button under `Main`)
 1. Unzip the downloaded file
-1. Create a folder called WheelNavJS in the PokeAPI folder
+1. Create a folder called wheelnavjs in the PokeAPI folder
 1. Copy and paste the following files from the wheelnav.js-1.6.1 folder:  
     `raphael.min.js`  
     `raphael.icons.min.js`  
@@ -25,9 +25,9 @@ You will also:
 1. In the `index.html` file, link up your javascript files, including the new WheelNavJS files you copied in.  
     Hint: That should look like this:  
     `<script type="text/javascript" src="main.js"></script>`  
-    `<script type="text/javascript" src="wheelnav.js-1.6.1/raphael.min.js"></script>`  
-    `<script type="text/javascript" src="wheelnav.js-1.6.1/raphael.icons.min.js"></script>`  
-    `<script type="text/javascript" src="wheelnav.js-1.6.1/wheelnav.min.js"></script>`
+    `<script type="text/javascript" src="wheelnavjs/raphael.min.js"></script>`  
+    `<script type="text/javascript" src="wheelnavjs/raphael.icons.min.js"></script>`  
+    `<script type="text/javascript" src="wheelnavjs/wheelnav.min.js"></script>`
 1. Start looking at the WheelNavJS documentation here: http://wheelnavjs.softwaretailoring.net/documentation/core.html
 2. Copy the code under `Properties` and paste it into the `$(document).ready` function in your `main.js` file
 3. Make any color, size, or other attribute changes you'd like by using the documentation. Be sure to change the labels on the wheel to: `random`, `color`, `name`, and `id`. Documentation on how to change those labels can be found here:  
